@@ -4,989 +4,989 @@
     "id": "Bitcoin",
     "thumb": "https://coin-images.coingecko.com/coins/images/1/thumb/bitcoin.png?1696501400",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -3.39
+    "start_price": 119117.55666327637,
+    "todays_date": "2025-08-05",
+    "todays_price": 112809,
+    "percent_change": -5.3
   },
   "eth": {
     "symbol": "eth",
     "id": "Ethereum",
     "thumb": "https://coin-images.coingecko.com/coins/images/279/thumb/ethereum.png?1696501628",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": 23.88
+    "start_price": 2974.2654952333387,
+    "todays_date": "2025-08-05",
+    "todays_price": 3561.86,
+    "percent_change": 19.76
   },
   "xrp": {
     "symbol": "xrp",
     "id": "XRP",
     "thumb": "https://coin-images.coingecko.com/coins/images/44/thumb/xrp-symbol-white-128.png?1696501442",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": 8.15
+    "start_price": 2.836943449825265,
+    "todays_date": "2025-08-05",
+    "todays_price": 2.97,
+    "percent_change": 4.69
   },
   "usdt": {
     "symbol": "usdt",
     "id": "Tether",
     "thumb": "https://coin-images.coingecko.com/coins/images/325/thumb/Tether.png?1696501661",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -0.03
+    "start_price": 1.0002981074921349,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.9998,
+    "percent_change": -0.05
   },
   "bnb": {
     "symbol": "bnb",
     "id": "BNB",
     "thumb": "https://coin-images.coingecko.com/coins/images/825/thumb/bnb-icon2_2x.png?1696501970",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": 10.82
+    "start_price": 692.0429275667424,
+    "todays_date": "2025-08-05",
+    "todays_price": 748.34,
+    "percent_change": 8.13
   },
   "sol": {
     "symbol": "sol",
     "id": "Solana",
     "thumb": "https://coin-images.coingecko.com/coins/images/4128/thumb/solana.png?1718769756",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": 4.1
+    "start_price": 161.2426294578984,
+    "todays_date": "2025-08-05",
+    "todays_price": 163.52,
+    "percent_change": 1.41
   },
   "usdc": {
     "symbol": "usdc",
     "id": "USDC",
     "thumb": "https://coin-images.coingecko.com/coins/images/6319/thumb/usdc.png?1696506694",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -0.01
+    "start_price": 0.9998965750627202,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.9997,
+    "percent_change": -0.02
   },
   "doge": {
     "symbol": "doge",
     "id": "Dogecoin",
     "thumb": "https://coin-images.coingecko.com/coins/images/5/thumb/dogecoin.png?1696501409",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": 4.8
+    "start_price": 0.1981830429850487,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.198,
+    "percent_change": -0.11
   },
   "trx": {
     "symbol": "trx",
     "id": "TRON",
     "thumb": "https://coin-images.coingecko.com/coins/images/1094/thumb/tron-logo.png?1696502193",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": 9.57
+    "start_price": 0.3030558478933525,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.3302,
+    "percent_change": 8.95
   },
   "ada": {
     "symbol": "ada",
     "id": "Cardano",
     "thumb": "https://coin-images.coingecko.com/coins/images/975/thumb/cardano.png?1696502090",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": 1.81
+    "start_price": 0.7378983923650405,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.7208,
+    "percent_change": -2.32
   },
   "hype": {
     "symbol": "hype",
     "id": "Hyperliquid",
     "thumb": "https://coin-images.coingecko.com/coins/images/50882/thumb/hyperliquid.jpg?1729431300",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -20.19
+    "start_price": 48.554395884899556,
+    "todays_date": "2025-08-05",
+    "todays_price": 38.25,
+    "percent_change": -21.22
   },
   "xlm": {
     "symbol": "xlm",
     "id": "Stellar",
     "thumb": "https://coin-images.coingecko.com/coins/images/100/thumb/fmpFRHHQ_400x400.jpg?1735231350",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -12.34
+    "start_price": 0.4721035854078526,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.3948,
+    "percent_change": -16.38
   },
   "sui": {
     "symbol": "sui",
     "id": "Sui",
     "thumb": "https://coin-images.coingecko.com/coins/images/26375/thumb/sui-ocean-square.png?1727791290",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": 1.91
+    "start_price": 3.491146874323171,
+    "todays_date": "2025-08-05",
+    "todays_price": 3.38,
+    "percent_change": -3.18
   },
   "link": {
     "symbol": "link",
     "id": "Chainlink",
     "thumb": "https://coin-images.coingecko.com/coins/images/877/thumb/chainlink-new-logo.png?1696502009",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": 9.07
+    "start_price": 15.647171782344852,
+    "todays_date": "2025-08-05",
+    "todays_price": 16.25,
+    "percent_change": 3.85
   },
   "hbar": {
     "symbol": "hbar",
     "id": "Hedera",
     "thumb": "https://coin-images.coingecko.com/coins/images/3688/thumb/hbar.png?1696504364",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": 4.93
+    "start_price": 0.2404678240544013,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.2386,
+    "percent_change": -0.77
   },
   "bch": {
     "symbol": "bch",
     "id": "Bitcoin Cash",
     "thumb": "https://coin-images.coingecko.com/coins/images/780/thumb/bitcoin-cash-circle.png?1696501932",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": 13.06
+    "start_price": 507.6173993721144,
+    "todays_date": "2025-08-05",
+    "todays_price": 564.72,
+    "percent_change": 11.25
   },
   "avax": {
     "symbol": "avax",
     "id": "Avalanche",
     "thumb": "https://coin-images.coingecko.com/coins/images/12559/thumb/Avalanche_Circle_RedWhite_Trans.png?1696512369",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": 6.58
+    "start_price": 21.18558444040671,
+    "todays_date": "2025-08-05",
+    "todays_price": 21.69,
+    "percent_change": 2.38
   },
   "leo": {
     "symbol": "leo",
     "id": "LEO Token",
     "thumb": "https://coin-images.coingecko.com/coins/images/8418/thumb/leo-token.png?1696508607",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -0.53
+    "start_price": 9.029655170852603,
+    "todays_date": "2025-08-05",
+    "todays_price": 8.99,
+    "percent_change": -0.44
   },
   "shib": {
     "symbol": "shib",
     "id": "Shiba Inu",
     "thumb": "https://coin-images.coingecko.com/coins/images/11939/thumb/shiba.png?1696511800",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
+    "start_price": 1.3294210271446592e-05,
+    "todays_date": "2025-08-05",
     "todays_price": 0.0,
-    "percent_change": -6.25
+    "percent_change": -10.34
   },
   "ton": {
     "symbol": "ton",
     "id": "Toncoin",
     "thumb": "https://coin-images.coingecko.com/coins/images/17980/thumb/photo_2024-09-10_17.09.00.jpeg?1725963446",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": 13.91
+    "start_price": 2.969424244730078,
+    "todays_date": "2025-08-05",
+    "todays_price": 3.27,
+    "percent_change": 10.12
   },
   "ltc": {
     "symbol": "ltc",
     "id": "Litecoin",
     "thumb": "https://coin-images.coingecko.com/coins/images/2/thumb/litecoin.png?1696501400",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": 25.94
+    "start_price": 94.59945275727617,
+    "todays_date": "2025-08-05",
+    "todays_price": 121.96,
+    "percent_change": 28.92
   },
   "dot": {
     "symbol": "dot",
     "id": "Polkadot",
     "thumb": "https://coin-images.coingecko.com/coins/images/12171/thumb/polkadot.png?1696512008",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -6.63
+    "start_price": 3.983930538545639,
+    "todays_date": "2025-08-05",
+    "todays_price": 3.57,
+    "percent_change": -10.39
   },
   "xmr": {
     "symbol": "xmr",
     "id": "Monero",
     "thumb": "https://coin-images.coingecko.com/coins/images/69/thumb/monero_logo.png?1696501460",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -7.82
+    "start_price": 336.01582645671033,
+    "todays_date": "2025-08-05",
+    "todays_price": 290.95,
+    "percent_change": -13.41
   },
   "uni": {
     "symbol": "uni",
     "id": "Uniswap",
     "thumb": "https://coin-images.coingecko.com/coins/images/12504/thumb/uniswap-logo.png?1720676669",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": 17.52
+    "start_price": 8.519797776359518,
+    "todays_date": "2025-08-05",
+    "todays_price": 9.48,
+    "percent_change": 11.27
   },
   "dai": {
     "symbol": "dai",
     "id": "Dai",
     "thumb": "https://coin-images.coingecko.com/coins/images/9956/thumb/Badge_Dai.png?1696509996",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -0.01
+    "start_price": 0.9999871296422147,
+    "todays_date": "2025-08-05",
+    "todays_price": 1.0,
+    "percent_change": 0.0
   },
   "usde": {
     "symbol": "usde",
     "id": "Ethena USDe",
     "thumb": "https://coin-images.coingecko.com/coins/images/33613/thumb/usde.png?1733810059",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -0.09
+    "start_price": 1.001859360350995,
+    "todays_date": "2025-08-05",
+    "todays_price": 1.0,
+    "percent_change": -0.19
   },
   "bgb": {
     "symbol": "bgb",
     "id": "Bitget Token",
     "thumb": "https://coin-images.coingecko.com/coins/images/11610/thumb/Bitget_logo.png?1736925727",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -0.78
+    "start_price": 4.39443018873981,
+    "todays_date": "2025-08-05",
+    "todays_price": 4.28,
+    "percent_change": -2.6
   },
   "pepe": {
     "symbol": "pepe",
     "id": "Pepe",
     "thumb": "https://coin-images.coingecko.com/coins/images/29850/thumb/pepe-token.jpeg?1696528776",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
+    "start_price": 1.2287639887351017e-05,
+    "todays_date": "2025-08-05",
     "todays_price": 0.0,
-    "percent_change": -12.94
+    "percent_change": -17.72
   },
   "aave": {
     "symbol": "aave",
     "id": "Aave",
     "thumb": "https://coin-images.coingecko.com/coins/images/12645/thumb/aave-token-round.png?1720472354",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -12.54
+    "start_price": 306.2924037378168,
+    "todays_date": "2025-08-05",
+    "todays_price": 253.22,
+    "percent_change": -17.33
   },
   "tao": {
     "symbol": "tao",
     "id": "Bittensor",
     "thumb": "https://coin-images.coingecko.com/coins/images/28452/thumb/ARUsPeNQ_400x400.jpeg?1696527447",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -7.92
+    "start_price": 391.73204202047924,
+    "todays_date": "2025-08-05",
+    "todays_price": 336.33,
+    "percent_change": -14.14
   },
   "pi": {
     "symbol": "pi",
     "id": "Pi Network",
     "thumb": "https://coin-images.coingecko.com/coins/images/54342/thumb/pi_network.jpg?1739347576",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -23.56
+    "start_price": 0.46717259039654724,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.3457,
+    "percent_change": -26.0
   },
   "cro": {
     "symbol": "cro",
     "id": "Cronos",
     "thumb": "https://coin-images.coingecko.com/coins/images/7310/thumb/cro_token_logo.png?1696507599",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": 29.68
+    "start_price": 0.10671019686662708,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.134,
+    "percent_change": 25.57
   },
   "apt": {
     "symbol": "apt",
     "id": "Aptos",
     "thumb": "https://coin-images.coingecko.com/coins/images/26455/thumb/aptos_round.png?1696525528",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -12.68
+    "start_price": 4.9435420516895725,
+    "todays_date": "2025-08-05",
+    "todays_price": 4.21,
+    "percent_change": -14.84
   },
   "near": {
     "symbol": "near",
     "id": "NEAR Protocol",
     "thumb": "https://coin-images.coingecko.com/coins/images/10365/thumb/near.jpg?1696510367",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": 0.66
+    "start_price": 2.529024534782854,
+    "todays_date": "2025-08-05",
+    "todays_price": 2.47,
+    "percent_change": -2.33
   },
   "icp": {
     "symbol": "icp",
     "id": "Internet Computer",
     "thumb": "https://coin-images.coingecko.com/coins/images/14495/thumb/Internet_Computer_logo.png?1696514180",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -3.48
+    "start_price": 5.4620749252136225,
+    "todays_date": "2025-08-05",
+    "todays_price": 5.06,
+    "percent_change": -7.36
   },
   "ondo": {
     "symbol": "ondo",
     "id": "Ondo",
     "thumb": "https://coin-images.coingecko.com/coins/images/26580/thumb/ONDO.png?1696525656",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": 5.04
+    "start_price": 0.9037557745884002,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.9082,
+    "percent_change": 0.49
   },
   "etc": {
     "symbol": "etc",
     "id": "Ethereum Classic",
     "thumb": "https://coin-images.coingecko.com/coins/images/453/thumb/ethereum-classic-logo.png?1696501717",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": 12.8
+    "start_price": 18.42467150294581,
+    "todays_date": "2025-08-05",
+    "todays_price": 19.98,
+    "percent_change": 8.44
   },
   "okb": {
     "symbol": "okb",
     "id": "OKB",
     "thumb": "https://coin-images.coingecko.com/coins/images/4463/thumb/WeChat_Image_20220118095654.png?1696505053",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -4.09
+    "start_price": 48.67136093792301,
+    "todays_date": "2025-08-05",
+    "todays_price": 45.22,
+    "percent_change": -7.09
   },
   "pol": {
     "symbol": "pol",
     "id": "POL (ex-MATIC)",
     "thumb": "https://coin-images.coingecko.com/coins/images/32440/thumb/polygon.png?1698233684",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -10.3
+    "start_price": 0.23257869545451632,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.212,
+    "percent_change": -8.87
   },
   "algo": {
     "symbol": "algo",
     "id": "Algorand",
     "thumb": "https://coin-images.coingecko.com/coins/images/4380/thumb/download.png?1696504978",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -6.14
+    "start_price": 0.2643311552998526,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.2346,
+    "percent_change": -11.23
   },
   "mnt": {
     "symbol": "mnt",
     "id": "Mantle",
     "thumb": "https://coin-images.coingecko.com/coins/images/30980/thumb/Mantle-Logo-mark.png?1739213200",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": 20.66
+    "start_price": 0.7021761181414109,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.9144,
+    "percent_change": 30.23
   },
   "kas": {
     "symbol": "kas",
     "id": "Kaspa",
     "thumb": "https://coin-images.coingecko.com/coins/images/25751/thumb/kaspa-icon-exchanges.png?1696524837",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": 4.28
+    "start_price": 0.0859155438183351,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.0859,
+    "percent_change": -0.05
   },
   "ena": {
     "symbol": "ena",
     "id": "Ethena",
     "thumb": "https://coin-images.coingecko.com/coins/images/36530/thumb/ethena.png?1711701436",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": 80.27
+    "start_price": 0.3428328499647323,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.5785,
+    "percent_change": 68.75
   },
   "bonk": {
     "symbol": "bonk",
     "id": "Bonk",
     "thumb": "https://coin-images.coingecko.com/coins/images/28600/thumb/bonk.jpg?1696527587",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
+    "start_price": 2.6266911893718118e-05,
+    "todays_date": "2025-08-05",
     "todays_price": 0.0,
-    "percent_change": 2.68
+    "percent_change": -7.6
   },
   "vet": {
     "symbol": "vet",
     "id": "VeChain",
     "thumb": "https://coin-images.coingecko.com/coins/images/1167/thumb/VET.png?1742383283",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -4.57
+    "start_price": 0.024660524456808393,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.0227,
+    "percent_change": -7.87
   },
   "arb": {
     "symbol": "arb",
     "id": "Arbitrum",
     "thumb": "https://coin-images.coingecko.com/coins/images/16547/thumb/arb.jpg?1721358242",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -0.95
+    "start_price": 0.410285726621702,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.38,
+    "percent_change": -7.38
   },
   "render": {
     "symbol": "render",
     "id": "Render",
     "thumb": "https://coin-images.coingecko.com/coins/images/11636/thumb/rndr.png?1696511529",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -2.24
+    "start_price": 3.765182188860958,
+    "todays_date": "2025-08-05",
+    "todays_price": 3.48,
+    "percent_change": -7.57
   },
   "gt": {
     "symbol": "gt",
     "id": "Gate",
     "thumb": "https://coin-images.coingecko.com/coins/images/8183/thumb/200X200.png?1735246724",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": 7.75
+    "start_price": 15.73791689484452,
+    "todays_date": "2025-08-05",
+    "todays_price": 16.45,
+    "percent_change": 4.52
   },
   "trump": {
     "symbol": "trump",
     "id": "Official Trump",
     "thumb": "https://coin-images.coingecko.com/coins/images/53746/thumb/trump.png?1737171561",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -5.85
+    "start_price": 9.533215251823005,
+    "todays_date": "2025-08-05",
+    "todays_price": 8.66,
+    "percent_change": -9.16
   },
   "sei": {
     "symbol": "sei",
     "id": "Sei",
     "thumb": "https://coin-images.coingecko.com/coins/images/28205/thumb/Sei_Logo_-_Transparent.png?1696527207",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -4.68
+    "start_price": 0.31687881528355294,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.2867,
+    "percent_change": -9.51
   },
   "wld": {
     "symbol": "wld",
     "id": "Worldcoin",
     "thumb": "https://coin-images.coingecko.com/coins/images/31069/thumb/worldcoin.jpeg?1696529903",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -3.86
+    "start_price": 1.0451349143619495,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.9362,
+    "percent_change": -10.42
   },
   "atom": {
     "symbol": "atom",
     "id": "Cosmos Hub",
     "thumb": "https://coin-images.coingecko.com/coins/images/1481/thumb/cosmos_hub.png?1696502525",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -8.63
+    "start_price": 4.684208085757465,
+    "todays_date": "2025-08-05",
+    "todays_price": 4.18,
+    "percent_change": -10.76
   },
   "fil": {
     "symbol": "fil",
     "id": "Filecoin",
     "thumb": "https://coin-images.coingecko.com/coins/images/12817/thumb/filecoin.png?1696512609",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -5.76
+    "start_price": 2.560739271164268,
+    "todays_date": "2025-08-05",
+    "todays_price": 2.32,
+    "percent_change": -9.4
   },
   "fet": {
     "symbol": "fet",
     "id": "Artificial Superintelligence Alliance",
     "thumb": "https://coin-images.coingecko.com/coins/images/5681/thumb/ASI.png?1719827289",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": 10.12
+    "start_price": 0.7334348364469456,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.6379,
+    "percent_change": -13.02
   },
   "pengu": {
     "symbol": "pengu",
     "id": "Pudgy Penguins",
     "thumb": "https://coin-images.coingecko.com/coins/images/52622/thumb/PUDGY_PENGUINS_PENGU_PFP.png?1733809110",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": 20.99
+    "start_price": 0.029820320059756853,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.0334,
+    "percent_change": 11.93
   },
   "sky": {
     "symbol": "sky",
     "id": "Sky",
     "thumb": "https://coin-images.coingecko.com/coins/images/39925/thumb/sky.jpg?1724827980",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": 4.54
+    "start_price": 0.07845982342900468,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.0774,
+    "percent_change": -1.33
   },
   "jup": {
     "symbol": "jup",
     "id": "Jupiter",
     "thumb": "https://coin-images.coingecko.com/coins/images/34188/thumb/jup.png?1704266489",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -4.58
+    "start_price": 0.5041093962228442,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.4616,
+    "percent_change": -8.43
   },
   "spx": {
     "symbol": "spx",
     "id": "SPX6900",
     "thumb": "https://coin-images.coingecko.com/coins/images/31401/thumb/centeredcoin_%281%29.png?1737048493",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": 7.25
+    "start_price": 1.5575352333504249,
+    "todays_date": "2025-08-05",
+    "todays_price": 1.59,
+    "percent_change": 2.08
   },
   "kcs": {
     "symbol": "kcs",
     "id": "KuCoin",
     "thumb": "https://coin-images.coingecko.com/coins/images/1047/thumb/sa9z79.png?1696502152",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -6.89
+    "start_price": 11.449762359165703,
+    "todays_date": "2025-08-05",
+    "todays_price": 10.51,
+    "percent_change": -8.21
   },
   "fdusd": {
     "symbol": "fdusd",
     "id": "First Digital USD",
     "thumb": "https://coin-images.coingecko.com/coins/images/31079/thumb/FDUSD_icon_black.png?1731097953",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -0.25
+    "start_price": 1.0008909647311695,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.9975,
+    "percent_change": -0.34
   },
   "qnt": {
     "symbol": "qnt",
     "id": "Quant",
     "thumb": "https://coin-images.coingecko.com/coins/images/3370/thumb/5ZOu7brX_400x400.jpg?1696504070",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -2.64
+    "start_price": 115.02048173046799,
+    "todays_date": "2025-08-05",
+    "todays_price": 107.64,
+    "percent_change": -6.42
   },
   "tia": {
     "symbol": "tia",
     "id": "Celestia",
     "thumb": "https://coin-images.coingecko.com/coins/images/31967/thumb/tia.jpg?1696530772",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -10.25
+    "start_price": 1.8840329499716857,
+    "todays_date": "2025-08-05",
+    "todays_price": 1.63,
+    "percent_change": -13.48
   },
   "fartcoin": {
     "symbol": "fartcoin",
     "id": "Fartcoin",
     "thumb": "https://coin-images.coingecko.com/coins/images/50891/thumb/fart.jpg?1729503972",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -23.19
+    "start_price": 1.2853010836550685,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.9412,
+    "percent_change": -26.77
   },
   "xdc": {
     "symbol": "xdc",
     "id": "XDC Network",
     "thumb": "https://coin-images.coingecko.com/coins/images/2912/thumb/xdc-icon.png?1696503661",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": 23.34
+    "start_price": 0.0781891276265742,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.0921,
+    "percent_change": 17.78
   },
   "ip": {
     "symbol": "ip",
     "id": "Story",
     "thumb": "https://coin-images.coingecko.com/coins/images/54035/thumb/Transparent_bg.png?1738075331",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": 40.41
+    "start_price": 4.193841465844055,
+    "todays_date": "2025-08-05",
+    "todays_price": 5.98,
+    "percent_change": 42.59
   },
   "form": {
     "symbol": "form",
     "id": "Four",
     "thumb": "https://coin-images.coingecko.com/coins/images/54912/thumb/four.jpg?1742461445",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": 13.87
+    "start_price": 3.33480602428078,
+    "todays_date": "2025-08-05",
+    "todays_price": 3.76,
+    "percent_change": 12.75
   },
   "inj": {
     "symbol": "inj",
     "id": "Injective",
     "thumb": "https://coin-images.coingecko.com/coins/images/12882/thumb/Other_200x200.png?1738782212",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": 9.06
+    "start_price": 12.401236499769718,
+    "todays_date": "2025-08-05",
+    "todays_price": 13.02,
+    "percent_change": 4.99
   },
   "stx": {
     "symbol": "stx",
     "id": "Stacks",
     "thumb": "https://coin-images.coingecko.com/coins/images/2069/thumb/Stacks_Logo_png.png?1709979332",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -9.36
+    "start_price": 0.7867337218275517,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.6774,
+    "percent_change": -13.9
   },
   "flr": {
     "symbol": "flr",
     "id": "Flare",
     "thumb": "https://coin-images.coingecko.com/coins/images/28624/thumb/FLR-icon200x200.png?1696527609",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": 41.9
+    "start_price": 0.016936999606356785,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.023,
+    "percent_change": 36.07
   },
   "op": {
     "symbol": "op",
     "id": "Optimism",
     "thumb": "https://coin-images.coingecko.com/coins/images/25244/thumb/Optimism.png?1696524385",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": 7.94
+    "start_price": 0.6541329819725544,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.6635,
+    "percent_change": 1.43
   },
   "virtual": {
     "symbol": "virtual",
     "id": "Virtuals Protocol",
     "thumb": "https://coin-images.coingecko.com/coins/images/34057/thumb/LOGOMARK.png?1708356054",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -26.79
+    "start_price": 1.7087752785936523,
+    "todays_date": "2025-08-05",
+    "todays_price": 1.18,
+    "percent_change": -30.94
   },
   "wif": {
     "symbol": "wif",
     "id": "dogwifhat",
     "thumb": "https://coin-images.coingecko.com/coins/images/33566/thumb/dogwifhat.jpg?1702499428",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -6.92
+    "start_price": 0.9979544273048956,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.8669,
+    "percent_change": -13.14
   },
   "imx": {
     "symbol": "imx",
     "id": "Immutable",
     "thumb": "https://coin-images.coingecko.com/coins/images/17233/thumb/immutableX-symbol-BLK-RGB.png?1696516787",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -2.3
+    "start_price": 0.5321468230140168,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.5006,
+    "percent_change": -5.93
   },
   "s": {
     "symbol": "s",
     "id": "Sonic",
     "thumb": "https://coin-images.coingecko.com/coins/images/38108/thumb/200x200_Sonic_Logo.png?1734679256",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -15.51
+    "start_price": 0.3609676200171879,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.2795,
+    "percent_change": -22.56
   },
   "grt": {
     "symbol": "grt",
     "id": "The Graph",
     "thumb": "https://coin-images.coingecko.com/coins/images/13397/thumb/Graph_Token.png?1696513159",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -5.1
+    "start_price": 0.09937984689439912,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.0884,
+    "percent_change": -11.06
   },
   "kaia": {
     "symbol": "kaia",
     "id": "Kaia",
     "thumb": "https://coin-images.coingecko.com/coins/images/39901/thumb/KAIA.png?1724734368",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -6.28
+    "start_price": 0.15612497409051726,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.1405,
+    "percent_change": -10.04
   },
   "paxg": {
     "symbol": "paxg",
     "id": "PAX Gold",
     "thumb": "https://coin-images.coingecko.com/coins/images/9519/thumb/paxgold.png?1696509604",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": 0.56
+    "start_price": 3355.9890427271716,
+    "todays_date": "2025-08-05",
+    "todays_price": 3385.73,
+    "percent_change": 0.89
   },
   "floki": {
     "symbol": "floki",
     "id": "FLOKI",
     "thumb": "https://coin-images.coingecko.com/coins/images/16746/thumb/PNG_image.png?1696516318",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": 16.17
+    "start_price": 9.666675301364319e-05,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.0001,
+    "percent_change": 6.52
   },
   "crv": {
     "symbol": "crv",
     "id": "Curve DAO",
     "thumb": "https://coin-images.coingecko.com/coins/images/12124/thumb/Curve.png?1696511967",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": 44.04
+    "start_price": 0.653741879647873,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.8954,
+    "percent_change": 36.96
   },
   "pyusd": {
     "symbol": "pyusd",
     "id": "PayPal USD",
     "thumb": "https://coin-images.coingecko.com/coins/images/31212/thumb/PYUSD_Logo_%282%29.png?1696530039",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -0.02
+    "start_price": 0.9996506281914964,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.9993,
+    "percent_change": -0.03
   },
   "iota": {
     "symbol": "iota",
     "id": "IOTA",
     "thumb": "https://coin-images.coingecko.com/coins/images/692/thumb/IOTA_Thumbnail_%281%29.png?1743772896",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -12.53
+    "start_price": 0.21845492167015637,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.1804,
+    "percent_change": -17.44
   },
   "a": {
     "symbol": "a",
     "id": "Vaulta",
     "thumb": "https://coin-images.coingecko.com/coins/images/55616/thumb/Vaulta_CEX_Icon_Circle_-_cmc.png?1746859132",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -6.82
+    "start_price": 0.5460130863092671,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.5054,
+    "percent_change": -7.45
   },
   "nexo": {
     "symbol": "nexo",
     "id": "NEXO",
     "thumb": "https://coin-images.coingecko.com/coins/images/3695/thumb/CG-nexo-token-200x200_2x.png?1730414360",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": 3.79
+    "start_price": 1.2836636749218184,
+    "todays_date": "2025-08-05",
+    "todays_price": 1.3,
+    "percent_change": 1.27
   },
   "cake": {
     "symbol": "cake",
     "id": "PancakeSwap",
     "thumb": "https://coin-images.coingecko.com/coins/images/12632/thumb/pancakeswap-cake-logo_%281%29.png?1696512440",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": 11.03
+    "start_price": 2.4005351822393233,
+    "todays_date": "2025-08-05",
+    "todays_price": 2.55,
+    "percent_change": 6.23
   },
   "ens": {
     "symbol": "ens",
     "id": "Ethereum Name Service",
     "thumb": "https://coin-images.coingecko.com/coins/images/19785/thumb/ENS.jpg?1727872989",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": 22.34
+    "start_price": 22.03938152557628,
+    "todays_date": "2025-08-05",
+    "todays_price": 25.64,
+    "percent_change": 16.34
   },
   "xaut": {
     "symbol": "xaut",
     "id": "Tether Gold",
     "thumb": "https://coin-images.coingecko.com/coins/images/10481/thumb/Tether_Gold.png?1696510471",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": 0.27
+    "start_price": 3360.8414731769135,
+    "todays_date": "2025-08-05",
+    "todays_price": 3386.54,
+    "percent_change": 0.76
   },
   "jasmy": {
     "symbol": "jasmy",
     "id": "JasmyCoin",
     "thumb": "https://coin-images.coingecko.com/coins/images/13876/thumb/JASMY200x200.jpg?1696513620",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -4.47
+    "start_price": 0.0161431494285736,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.0144,
+    "percent_change": -11.0
   },
   "sand": {
     "symbol": "sand",
     "id": "The Sandbox",
     "thumb": "https://coin-images.coingecko.com/coins/images/12129/thumb/sandbox_logo.jpg?1696511971",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -12.12
+    "start_price": 0.3116925590579077,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.2629,
+    "percent_change": -15.64
   },
   "theta": {
     "symbol": "theta",
     "id": "Theta Network",
     "thumb": "https://coin-images.coingecko.com/coins/images/2538/thumb/theta-token-logo.png?1696503349",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -3.83
+    "start_price": 0.8107907051430727,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.7474,
+    "percent_change": -7.82
   },
   "gala": {
     "symbol": "gala",
     "id": "GALA",
     "thumb": "https://coin-images.coingecko.com/coins/images/12493/thumb/GALA_token_image_-_200PNG.png?1709725869",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -8.55
+    "start_price": 0.017221352980319623,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.015,
+    "percent_change": -12.88
   },
   "ldo": {
     "symbol": "ldo",
     "id": "Lido DAO",
     "thumb": "https://coin-images.coingecko.com/coins/images/13573/thumb/Lido_DAO.png?1696513326",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": 13.18
+    "start_price": 0.8381517176207299,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.8936,
+    "percent_change": 6.62
   },
   "ray": {
     "symbol": "ray",
     "id": "Raydium",
     "thumb": "https://coin-images.coingecko.com/coins/images/13928/thumb/PSigc4ie_400x400.jpg?1696513668",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -1.05
+    "start_price": 2.768757499719124,
+    "todays_date": "2025-08-05",
+    "todays_price": 2.59,
+    "percent_change": -6.46
   },
   "zec": {
     "symbol": "zec",
     "id": "Zcash",
     "thumb": "https://coin-images.coingecko.com/coins/images/486/thumb/circle-zcash-color.png?1696501740",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -12.29
+    "start_price": 42.39988260684145,
+    "todays_date": "2025-08-05",
+    "todays_price": 35.27,
+    "percent_change": -16.82
   },
   "m": {
     "symbol": "m",
     "id": "MemeCore",
     "thumb": "https://coin-images.coingecko.com/coins/images/53247/thumb/square-bg-transparent.png?1752637478",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -7.55
+    "start_price": 0.6286257492941337,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.5258,
+    "percent_change": -16.36
   },
   "aero": {
     "symbol": "aero",
     "id": "Aerodrome Finance",
     "thumb": "https://coin-images.coingecko.com/coins/images/31745/thumb/token.png?1696530564",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": -1.97
+    "start_price": 0.8203205741936829,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.7196,
+    "percent_change": -12.28
   },
   "btt": {
     "symbol": "btt",
     "id": "BitTorrent",
     "thumb": "https://coin-images.coingecko.com/coins/images/22457/thumb/btt_logo.png?1696521780",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
+    "start_price": 6.855540039122296e-07,
+    "todays_date": "2025-08-05",
     "todays_price": 0.0,
-    "percent_change": -4.25
+    "percent_change": -5.8
   },
   "mog": {
     "symbol": "mog",
     "id": "Mog Coin",
     "thumb": "https://coin-images.coingecko.com/coins/images/31059/thumb/MOG_LOGO_200x200.png?1696529893",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
+    "start_price": 1.897064277649104e-06,
+    "todays_date": "2025-08-05",
     "todays_price": 0.0,
-    "percent_change": -31.47
+    "percent_change": -38.33
   },
   "pyth": {
     "symbol": "pyth",
     "id": "Pyth Network",
     "thumb": "https://coin-images.coingecko.com/coins/images/31924/thumb/pyth.png?1701245725",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": 0.17
+    "start_price": 0.11937220658007103,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.1112,
+    "percent_change": -6.81
   },
   "xtz": {
     "symbol": "xtz",
     "id": "Tezos",
     "thumb": "https://coin-images.coingecko.com/coins/images/976/thumb/Tezos-logo.png?1696502091",
     "start_date": "2025-07-14",
-    "start_price": 0.0,
-    "todays_date": "",
-    "todays_price": 0.0,
-    "percent_change": 21.62
+    "start_price": 0.6428804171566647,
+    "todays_date": "2025-08-05",
+    "todays_price": 0.7739,
+    "percent_change": 20.38
   }
 }
