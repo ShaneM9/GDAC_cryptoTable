@@ -27,13 +27,22 @@ This repo powers the **live cryptocurrency table** on the [Guernsey Digital Asse
 - Calculates percent change since **14 July 2025**
 - Updates `tableData.json`, which is read by the GDAC website to display price movement
 
+Note: The rationale behind using a separate `cryptoList.csv` is that the list can be updated by staff locally more easily than the .json file. Transposing the .csv to .json can be done very simply with a single-use script whenever needed.
+
 ---
 
 ## 🛠 How It Works
 
-- The core logic is in `cryptoTable.py`
-- It is automatically run every hour using **GitHub Actions**
-- Results are committed back to the repo by the GitHub Actions bot
+- The core logic is in `cryptoTable.py`:
+    - `cryptoList.csv` is opened and the symbols are recorded
+    - A request is built consisting of all symbols + a currency code
+    - `GET` request to **CoinGecko** API for today's prices for each of symbol
+    - Percentage change between 14 July 2025 and today is calculated
+    - Today's date, today's price and percentage change are all updated in `tableData.json`
+- The script is automatically run every hour, on the hour, using **GitHub Actions**
+- Results are committed back to the repo by the **GitHub Actions** bot
+
+Note: The date of 14 July 2025 is the agreed start date for the competition, hence hard-coded as a constant.
 
 ---
 
@@ -51,20 +60,21 @@ This repo powers the **live cryptocurrency table** on the [Guernsey Digital Asse
 
 ## ⚙️ Automation (GitHub Actions)
 
-This repo uses a [GitHub Actions workflow](.github/workflows/update_crypto_table.yml) that runs the script every hour:
+This repo uses a [GitHub Actions workflow](.github/workflows/update_crypto_table.yml) that runs the script every hour, on the hour:
 
 - Installs required Python packages
 - Runs `cryptoTable.py`
 - Commits updated `tableData.json` to `main` branch
 
-You can also manually trigger the workflow from the **Actions** tab in GitHub.
+It can also be triggered manually via GitHub's **Actions** tab.
 
 ---
 
 ## 🔐 API Info
 
 - Data is pulled from CoinGecko’s free API.
-- No API key required, but the script handles rate limits (HTTP 429) gracefully.
+- No API key required, but consideration should be given to rate limits if additional calls are to be made.
+- Whilst this script only makes use of `GET` for today's prices, it is worth noting that one-off calls were made to CoinGecko ahead of implementing this repository in order to build the .json and .csv files that this script runs from/outputs to. These included requests for initial coin prices as at 14 July 2025, as well as ticker data such as id, symbol, name, and image URLs for thumbnails to be used on the GDAC website.
 
 ---
 
@@ -85,6 +95,8 @@ Each entry in `tableData.json` looks like:
 }
 ```
 
+Values are maintained for `start_date`, `start_price`, `todays_date` and `todays_price` for manual validation purposes and transparency as part of the competition and reporting.
+
 ---
 
 ## 🧪 Manual Test
@@ -96,7 +108,7 @@ pip install pandas requests
 python cryptoTable.py
 ```
 
-Ensure that cryptoList.csv and tableData.json are in the same directory.
+Ensure that `cryptoList.csv` and `tableData.json` are in the same directory.
 
 ---
 
