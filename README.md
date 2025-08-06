@@ -4,7 +4,7 @@
 ![Last Commit](https://img.shields.io/github/last-commit/ShaneM9/GDAC_cryptoTable)
 [![GDAC Website](https://img.shields.io/badge/Visit%20GDAC%20Site-Click%20Here-blue)](https://digitalconferenceguernsey.gg/crypto-game)
 
-This repo powers the **live cryptocurrency table** on the [Guernsey Digital Assets Conference 2025 website](https://digitalconferenceguernsey.gg/crypto-game), showing real-time gain/loss stats for tracked tokens since the start of the GDAC 2025 "Crypto Game".
+This repo powers the **live cryptocurrency table** on the [Guernsey Digital Assets Conference 2025 website](https://digitalconferenceguernsey.gg/crypto-game), showing real-time gain/loss stats for tracked tokens since the start of the GDAC 2025 "Crypto Game". Gain/loss figures are updated hourly (or near-as, whenever GitHub decides to run the Action).
 
 ## 📚 Table of Contents
 
