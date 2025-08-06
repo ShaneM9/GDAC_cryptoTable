@@ -1,5 +1,9 @@
 # 🪙 GDAC Crypto Table
 
+![Build Status](https://github.com/ShaneM9/GDAC_cryptoTable/actions/workflows/update_crypto_table.yml/badge.svg)
+![Last Commit](https://img.shields.io/github/last-commit/ShaneM9/GDAC_cryptoTable)
+[![GDAC Website](https://img.shields.io/badge/Visit%20GDAC%20Site-Click%20Here-blue)](https://digitalconferenceguernsey.gg/crypto-game)
+
 This repo powers the **live cryptocurrency table** on the [GDAC website](https://digitalconferenceguernsey.gg/crypto-game), showing real-time gain/loss stats for tracked tokens since the start of the GDAC 2025 crypto challenge.
 
 ## 📚 Table of Contents
