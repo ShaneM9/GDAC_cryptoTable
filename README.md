@@ -35,11 +35,13 @@ This repo powers the **live cryptocurrency table** on the [GDAC website](https:/
 
 ## 📁 Repo Structure
 
+```.
 ├── cryptoList.csv         # List of tracked cryptocurrencies (id, symbol, name)
 ├── cryptoTable.py         # Main script for fetching, calculating, and updating
 ├── tableData.json         # Output file used by the website
 └── .github/workflows/
     └── update_crypto_table.yml  # GitHub Actions workflow (runs hourly)
+```
 
 ---
 
