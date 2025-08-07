@@ -14,7 +14,9 @@ This repo powers the **live cryptocurrency table** on the [Guernsey Digital Asse
 - [Automation (GitHub Actions)](#-automation-github-actions)
 - [API Info](#-api-info)
 - [Example Output](#-example-output)
+- [Initial Setup](#-initial-setup)
 - [Manual Test](#-manual-test)
+- [Crypto Game](#-crypto-game)
 - [Contributing](#-contributing)
 - [About the Dev](#-about-the-dev)
 
@@ -54,6 +56,14 @@ Note: The date of 14 July 2025 is the agreed start date for the competition, hen
 ├── tableData.json         # Output file used by the website
 └── .github/workflows/
     └── update_crypto_table.yml  # GitHub Actions workflow (runs hourly)
+└── bonus_content
+    └── cryptoTable_Local.py
+    └── metaImage.py
+    └── metaWriter.py
+    └── startDataGetter.py
+    └── table.html
+└── crypto_game
+    └── cryptoGame.py
 ```
 
 ---
@@ -99,16 +109,80 @@ Values are maintained for `start_date`, `start_price`, `todays_date` and `todays
 
 ---
 
+## 🤖 Initial Setup
+
+**!IMPORTANT**
+
+Note that cryptoList.csv was decided ahead of this project being comissioned, and thus the `cryptoList.csv` had already been decided upon and manually set up. I'm sure there's a way you could automate this using CoinGecko and market cap data as at a date - but I didn't need to do it, so there is no script for that here.
+
+I have, however, included the scripts I used to populate `tableData.json` with various metadata. The setup was split into two scripts purely because they utilise two separate API URLs, and we didn't want to re-run both in the event that we had to re-run one of them. Note there is also not a script to generate the initial template for `tableData.json` - we just hit CTRL+V a bunch of times and manually added all 100 names and symbols because I wasn't thinking straight (actually that's a lie - I used the find+replace function in VS Code within the .csv, and put some random tags around each bit of data I wanted to keep - eg. "---Bitcoin+++", "---Ethereum+++", "---Dogecoin+++" - then find+replace could search for "---" and replace it with `"id": "` and search for "+++" and replace with `","thumb": "","start_date": "","start_price": 0.0,"todays_date": "","todays_price": 0.0,"percent_change": 0.0},"`... then just save-out as .json and prettify it. Talk about jank, but it works - jsut remember to tidy up the start and end of the file by removing any extra commas or adding any extra curly braces.
+
+Anyway, in this repo you will see the following additional scripts in the `/bonus_content/` folder:
+
+`startDataGetter.py`
+- Run this first. Obtains start-date data and populates `tableData.json` with the price in USD as at competition start-date
+- You can adjust const `TARGET_DATE` to change the start date, but note you will have to manually adjust this date for entry "start_date" in `tableData.json` for each crypto, since this functionality was not in scope for me.
+
+`metaImage.py`
+- Run this next. It will grab the image URL for use in the table that we use on GDAC's website.
+- Note that we experienced one crypto that had de-listed between project start and implementing images into the web app - since it was only one, and since we only planned on running this script once, we managed to manually add the URL from historic data.
+- Note also that this outputs to `metaImage.csv` rather than writing to `tableData.json` immediately. This is because initially we had grabbed the URLs for use in a flat HTML `<table>` within a script, and a .csv was quicker for a human to parse... but when we moved to JavaScript and automating table generation it turned out .json was preferable... hence we built `tableData.json` and populated that instead. Honestly should have used JS from the beginning. Rookie error
+
+`metaWriter.py`
+- Originally intended as something grander, this script ended-up being a means of adding the image URLs to `tableData.json` and that was it.
+- Run this after getting the image URLs from `metaImage.py` - or if you're feeling really smart, forego this entirely and just adapt the function in `metaImage.py` to write to `tableData.json` instead. These are all single-use throwaway scripts for me, so I'm not too fussed about optimising them... consider them 'bonus content' that I'm giving you for ease of setup - you might have your own way of doing this.
+
+`table.html`
+- This contains the HTML code snippet for use in the web application/code block on the website.
+- Put very simply it grabs the data from within `tableData.json` and generates a CSS-styled table in the format:
+    - `"thumb"`
+    - `"id" ("symbol")`
+    - `"percent_change"`
+- Note that `"percent_change"` is coloured according to gain (green), loss (red) or black (no change)
+- The block is mobile-friendly, and will scale down from 5 columns (desktop) to 3 columns (mobile)
+
+---
+
 ## 🧪 Manual Test
 
-To test locally:
+To test locally please use `cryptoTable_Local.py` and link this to your own GitHub repo as state within the comments of that file. Then run:
 
 ```bash
 pip install pandas requests
 python cryptoTable.py
 ```
 
-Ensure that `cryptoList.csv` and `tableData.json` are in the same directory.
+Ensure that `cryptoList.csv` and `tableData.json` are in the same directory, or that you adjust the locations within the script.
+
+---
+
+## 🎮 Crypto Game
+
+In the folder `/crypto_game` you'll find 'cryptoGame.py' - another Brucie Bonus. This repo isn't specifically about the crypto game itself, but rather I have included this for future use at other events if needed. The comments in the file should be relatively self-explanatory, but to summarise here:
+
+- Extracts unique "cryptoSymbol" data from `attendeeList.csv`
+- Matches these against the values in `cryptoList.csv` to check they exist in the CoinGecko API
+- Fetches historical data from CoinGecko for each crypto from 14 July 2025 to today and outputs `coinGeckoData.csv`
+- Works out a winner using "signUpDate" and "cryptoSymbol" values from `attendeeList.csv`:
+    - Find price data on "signUpDate" for "cryptoSymbol"
+    - Find price data for today for "cryptoSymbol"
+    - Work out percentage gain/loss for each attendee
+    - Outputs results to `cryptoGameResults.csv` in order from highest gain to biggest loss
+- As well as outputting a full results .csv, the program also outputs a top-10 to the console CLI.
+- In the event of a tiebreak there is further logic to:
+    - Get the crypto that the tiebreaker attendees chose, and the date they chose it
+    - Contact the CoinGecko API and retireve hourly (or near-as-dammit) values for that crypto on that day
+    - Output to `tiebreakerData.csv` for manual review
+    - I intend on adding some further script to automate the review, however at present we don't know the date-time structure of the data that will be provided to us for attendees. For now, users can manually review the hourly data and see which attendee chose the particular coin when it was at the lower value (eg. John chose PugCoin at $420.69 and Jane chose it at $420.42, and the coin is now worth $694.20, Jane wins because hers gained a few extra cents, and thus a slightly higher percentage). I may update this if I ever update the script, but for now you get the manual version - we'll see if we have time before the event to update this one...
+
+A quick note on the structure of `attendeeList.csv` since this is not included in this repo for Data Protection reasons - the structure is assumed to be as follows, (we expect the date-time structure to change):
+
+```
+attendeeName,signUpDate,cryptoSymbol
+John Smith,14-Jul-2025,btc
+```
+
+Note also that `cryptoList.csv` is the same that is used by `cryptoTable.py`.
 
 ---
 
