@@ -6,6 +6,9 @@ import time
 # be better outputting straight to the JSON... but we decided to use JSON after running this, so instead we just used
 # another script to pull from the CSV into the new JSON format... Including in this repo since it might be useful to someone...
 
+# NOTE: This was originally set to obtain 'thumb' images. We replaced these with 'small' in the final tableData.json
+# as thumbs were too low-res. We just used replace-all to switch any instances of /thumb/ with /small/ - simple.
+
 crypto_df = pd.read_csv('cryptoList.csv')
 
 image_data = []
