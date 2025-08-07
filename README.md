@@ -145,7 +145,7 @@ Anyway, in this repo you will see the following additional scripts in the `/bonu
 
 ## 🧪 Manual Test
 
-To test locally please use `cryptoTable_Local.py` and link this to your own GitHub repo as state within the comments of that file. Then run:
+To test locally please use `cryptoTable_Local.py` (found in the `/bonus_content/` folder of this repo) and link this to your own GitHub repo as stated within the comments of that file. Then run:
 
 ```bash
 pip install pandas requests
