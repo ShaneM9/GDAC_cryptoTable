@@ -158,7 +158,7 @@ Ensure that `cryptoList.csv` and `tableData.json` are in the same directory, or 
 
 ## 🎮 Crypto Game
 
-In the folder `/crypto_game` you'll find 'cryptoGame.py' - another Brucie Bonus. This repo isn't specifically about the crypto game itself, but rather I have included this for future use at other events if needed. The comments in the file should be relatively self-explanatory, but to summarise here:
+In the folder `/crypto_game/` you'll find 'cryptoGame.py' - another Brucie Bonus. This repo isn't specifically about the crypto game itself, but rather I have included this for future use at other events if needed. The comments in the file should be relatively self-explanatory, but to summarise here:
 
 - Extracts unique "cryptoSymbol" data from `attendeeList.csv`
 - Matches these against the values in `cryptoList.csv` to check they exist in the CoinGecko API
