@@ -1,0 +1,69 @@
+<!-- NOTE: This is a code snippet intended to be used in a code block, or as part of a wider HTML page -->
+<div id="custom-table">Loading table...</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const dataUrl = 'https://raw.githubusercontent.com/ShaneM9/GDAC_cryptoTable/main/tableData.json'; // Or whatever your repo address is, of course
+
+  fetch(dataUrl)
+    .then(response => response.json())
+    .then(data => {
+      const tableContainer = document.getElementById('custom-table');
+      const dataArray = Object.values(data);
+
+      if (!Array.isArray(dataArray) || dataArray.length === 0) {
+        tableContainer.innerHTML = 'Error: No data to display.';
+        return;
+      }
+
+      let tableHTML = `
+        <table style="width: 100%; border-collapse: separate; border-spacing: 20px 20px;">
+      `;
+
+      // Break into rows of 5 items
+      const chunks = [];
+      for (let i = 0; i < dataArray.length; i += 5) {
+        chunks.push(dataArray.slice(i, i + 5));
+      }
+
+      chunks.forEach(rowItems => {
+        tableHTML += '<tr>';
+        rowItems.forEach(item => {
+          const percent = item.percent_change ?? 0;
+          let color = 'black';
+          if (percent > 0) color = 'green';
+          else if (percent < 0) color = 'red';
+
+          tableHTML += `
+            <td style="
+              width: 20%;
+              text-align: center;
+              padding: 15px;
+              border: 1px solid #ccc;
+              border-radius: 10px;
+              box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+              background-color: #fafafa;
+              vertical-align: top;
+            ">
+              <img src="${item.thumb}" style="height: 30px;"><br>
+              <div style="margin-top: 8px; font-weight: bold; color: black">
+                ${item.id} (${item.symbol})
+              </div>
+              <div style="margin-top: 5px; font-size: 16px; font-weight: bold; color: ${color};">
+                ${percent}%
+              </div>
+            </td>
+          `;
+        });
+        tableHTML += '</tr>';
+      });
+
+      tableHTML += '</table>';
+      tableContainer.innerHTML = tableHTML;
+    })
+    .catch(err => {
+      console.error('Error loading JSON:', err);
+      document.getElementById('custom-table').innerText = 'Error loading data.';
+    });
+});
+</script>
