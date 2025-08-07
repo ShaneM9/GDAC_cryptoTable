@@ -123,7 +123,7 @@ Anyway, in this repo you will see the following additional scripts in the `/bonu
 - Run this first. Obtains start-date data and populates `tableData.json` with the price in USD as at competition start-date
 - You can adjust const `TARGET_DATE` to change the start date, but note you will have to manually adjust this date for entry "start_date" in `tableData.json` for each crypto, since this functionality was not in scope for me.
 
-`metaImage.py`
+`imageGetter.py`
 - Run this next. It will grab the image URL for use in the table that we use on GDAC's website.
 - Note that we experienced one crypto that had de-listed between project start and implementing images into the web app - since it was only one, and since we only planned on running this script once, we managed to manually add the URL from historic data.
 - Note also that this outputs to `metaImage.csv` rather than writing to `tableData.json` immediately. This is because initially we had grabbed the URLs for use in a flat HTML `<table>` within a script, and a .csv was quicker for a human to parse... but when we moved to JavaScript and automating table generation it turned out .json was preferable... hence we built `tableData.json` and populated that instead. Honestly should have used JS from the beginning. Rookie error
