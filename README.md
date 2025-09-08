@@ -158,8 +158,25 @@ Ensure that `cryptoList.csv` and `tableData.json` are in the same directory, or 
 
 ## 🎮 Crypto Game
 
-In the folder `/crypto_game/` you'll find 'cryptoGame.py' - another Brucie Bonus. This repo isn't specifically about the crypto game itself, but rather I have included this for future use at other events if needed. The comments in the file should be relatively self-explanatory, but to summarise here:
+In the folder `/crypto_game/` you'll find 'entrantDataNormalizer.py' and 'cryptoGame.py' - another Brucie Bonus. This repo isn't specifically about the crypto game itself, but rather I have included this for future use at other events if needed. The comments in the file should be relatively self-explanatory, but to summarise here:
 
+### `entrantDataNormalizer.py`
+- Opens the files we will use to create our final list of entrants - `GDAC Crypto game entrants.csv` and `cryptoList.csv`
+- Step 1: We begin by replacing user's choices with the correct symbol. This is because the website sign-up used a free-text field for choices, thus we have to account for extra random words, letters, or for example "Bitcoin" instead of the requested "BTC" or "btc". We cannot handle every potential scenario (it is a free-text field, of course) but the below goes some way to hunt-out the choice in any given string of potential text and replace with the correct symbol.
+    - Step 1.1: Begins by comparing `GDAC Crypto game entrants.csv` column 'Coin' to `cryptoList.csv` column 'id' - if the value in 'id' is located within the string that exists in 'Coin' then replace the entire string in 'Coin' with the value in `cryptoList.csv` column 'symbol'
+    - Step 1.2: Repeat the same thing, but using `cryptoList.csv` column 'name' and, where a match is found, replace values in 'Coin' with those in 'symbol'.
+    - Step 1.3: We then filter out entrants with 'Party' or 'Virtual' ticket types, this at the request of the organizer. Only in-person attendees are eligible for prizes.
+- Step 2: We convert the 'Coin' column of `GDAC Crypto game entrants.csv` 'tolower' to ensure a perfect fit with CoinGecko API data.
+- Step 3: 'Date' column in `GDAC Crypto game entrants.csv` is converted to a standard 'dd-MMM-yyyy' format to play nicely with `cryptoGame.py`. There are two formats present in the dataset - 'dd-MM-yy' and 'dd-MM-yyyy' so the scrript handles both.
+- Step 4: Matching against `cryptoList.csv`, we delete any rows where user selection does not match a value in `cryptoList.csv` (think "spoiled ballots"!).
+- Step 5: All unneccessary columns are deleted, leaving only 'Name', 'Date', 'Time' and 'Coin'.
+- Step 6: Columns are renamed to fit with those expected in `cryptoGame.py`
+- Step 7: We limit the entrants to the first 5 individuals to have chosen the coin in question - only a max of 5 can choose any single coin, first-come first-served.
+- Step 8: The final output is saved as `attendeeList.csv` in the same location as `cryptoGame.py`
+- Step 9: Closure of component .csv files is handled by context managers - no need for extra script here.
+- We can now run `cryptoGame.py` and it will pick up our formatted `attendeeList.csv` and work with it as expected!
+
+### `cryptoGame.py`
 - Extracts unique "cryptoSymbol" data from `attendeeList.csv`
 - Matches these against the values in `cryptoList.csv` to check they exist in the CoinGecko API
 - Fetches historical data from CoinGecko for each crypto from 14 July 2025 to today and outputs `coinGeckoData.csv`
@@ -173,13 +190,13 @@ In the folder `/crypto_game/` you'll find 'cryptoGame.py' - another Brucie Bonus
     - Get the crypto that the tiebreaker attendees chose, and the date they chose it
     - Contact the CoinGecko API and retireve hourly (or near-as-dammit) values for that crypto on that day
     - Output to `tiebreakerData.csv` for manual review
-    - I intend on adding some further script to automate the review, however at present we don't know the date-time structure of the data that will be provided to us for attendees. For now, users can manually review the hourly data and see which attendee chose the particular coin when it was at the lower value (eg. John chose PugCoin at $420.69 and Jane chose it at $420.42, and the coin is now worth $694.20, Jane wins because hers gained a few extra cents, and thus a slightly higher percentage). I may update this if I ever update the script, but for now you get the manual version - we'll see if we have time before the event to update this one...
+    - Given more time I would like to have added automation for the tiebreaker also, given we have a 'Time' column in the original entrants dataset, but for now users can manually review the hourly data and see which attendee chose the particular coin when it was at the lower value (eg. John chose PugCoin at $420.69 and Jane chose it at $420.42, and the coin is now worth $694.20, Jane wins because hers gained a few extra cents, and thus a slightly higher percentage). I may update this if I ever update the script, but for now you get the manual version... Likewise incorporating `entrantData Normalizer.py` would have been nice... time is always against us!
 
 A quick note on the structure of `attendeeList.csv` since this is not included in this repo for Data Protection reasons - the structure is assumed to be as follows, (we expect the date-time structure to change):
 
 ```
-attendeeName,signUpDate,cryptoSymbol
-John Smith,14-Jul-2025,btc
+attendeeName,signUpDate,signUpTime,cryptoSymbol
+John Smith,14-Jul-2025,10:00,btc
 ```
 
 Note also that `cryptoList.csv` is the same that is used by `cryptoTable.py`.
