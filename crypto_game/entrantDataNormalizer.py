@@ -93,24 +93,61 @@ def main():
             entrants_df["Coin"] = pd.Series(new_coins, index=entrants_df.index)
 
             # ------------------------------------------------------------------
-            # Step 1.3: Filter out Party/Virtual ticket types
+            # Step 1.3: Filter out Party/Virtual ticket types ***OLD***
             # ------------------------------------------------------------------
-            print("Filtering out entrants with Ticket Type 'Party' or 'Virtual'")
+            #print("Filtering out entrants with Ticket Type 'Party' or 'Virtual'")
 
-            if "Ticket Type" in entrants_df.columns:
-                # Trim and normalize for reliable matching
-                tt_raw = entrants_df["Ticket Type"].astype(str).str.strip()
-                tt_norm = tt_raw.str.lower()
+            #if "Ticket Type" in entrants_df.columns:
+                ## Trim and normalize for reliable matching
+                #tt_raw = entrants_df["Ticket Type"].astype(str).str.strip()
+                #tt_norm = tt_raw.str.lower()
 
-                # Substring match per your spec ("contains" Party/Virtual)
-                drop_mask = tt_norm.str.contains("party", na=False) | tt_norm.str.contains("virtual", na=False)
+                ## Substring match per your spec ("contains" Party/Virtual)
+                #drop_mask = tt_norm.str.contains("party", na=False) | tt_norm.str.contains("virtual", na=False)
 
-                if drop_mask.any():
-                    for _, row in entrants_df.loc[drop_mask, ["Name", "Ticket Type"]].iterrows():
-                        print(f"Entry for '{row['Name']}' discounted for ticket type: '{row['Ticket Type']}'")
-                    entrants_df = entrants_df.loc[~drop_mask].reset_index(drop=True)
-            else:
-                print("Warning: 'Ticket Type' column not found; Step 1.3 skipped")
+                #if drop_mask.any():
+                    #for _, row in entrants_df.loc[drop_mask, ["Name", "Ticket Type"]].iterrows():
+                        #print(f"Entry for '{row['Name']}' discounted for ticket type: '{row['Ticket Type']}'")
+                    #entrants_df = entrants_df.loc[~drop_mask].reset_index(drop=True)
+            #else:
+                #print("Warning: 'Ticket Type' column not found; Step 1.3 skipped")
+
+            # ------------------------------------------------------------------
+            # Step 1.3: Deduplicate on ('Name', 'Coin') - Keeps earliest 'Date', then 'Time'
+            # ------------------------------------------------------------------
+            print("Removing most recent duplicates where 'Name' and 'Coin' match.\nOldest entry will be retained, subseuqent entries will be deleted.")
+
+            entrants_df["_name_norm"] = entrants_df["Name"].astype(str).str.strip().str.lower()
+            entrants_df["_coin_norm"] = entrants_df["Coin"].astype(str).str.strip().str.lower()
+            date_str = entrants_df["Date"].astype(str).str.strip()
+            time_str = entrants_df["Time"].astype(str).str.strip()
+
+            dt1 = pd.to_datetime(date_str + " " + time_str, format="%d/%m/%Y %H:%M", errors="coerce")
+            dt2 = pd.to_datetime(date_str + " " + time_str, format="%d/%m/%y %H:%M", errors="coerce")
+            dt = dt1.where(dt1.notna(), dt2)
+
+            date_only = pd.to_datetime(date_str, dayfirst=True, errors="coerce")
+            dt = dt.where(dt.notna(), date_only)
+
+            time_parsed = pd.to_datetime(time_str, format="%H:%M", errors="coerce")
+            add_minutes = pd.Series(0, index=entrants_df.index)
+            add_minutes[(dt.notna()) & (time_parsed.isna())] = 23*60 + 59
+            dt = dt + pd.to_timedelta(add_minutes, unit="m")
+
+            entrants_df["_dt_sort"] = dt.fillna(pd.Timestamp.max)
+            entrants_df["_orig_idx"] = range(len(entrants_df))
+
+            entrants_df = entrants_df.sort_values(
+                ["_name_norm", "_coin_norm", "_dt_sort", "_orig_idx"]
+            ).reset_index(drop=True)
+
+            dup_mask = entrants_df.duplicated(subset=["_name_norm", "_coin_norm"], keep="first")
+            if dup_mask.any():
+                for _, row in entrants_df.loc[dup_mask, ["Name", "Date", "Time", "Coin"]].iterrows():
+                    print(f"Entry for '{row['Name']}' selected {row['Coin']} for a second time on '{row['Date']} {row['Time']}'. This has been removed as most recent duplicate.")
+                entrants_df = entrants_df.loc[~dup_mask].reset_index(drop=True)
+            
+            entrants_df = entrants_df.drop(columns=["_name_norm", "_coin_norm", "_dt_sort", "_orig_idx"], errors="ignore")
 
             # ------------------------------------------------------------------
             # Step 2: Convert entrants column 'Coin' tolower
