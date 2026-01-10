@@ -6,8 +6,8 @@
     "start_date": "2025-07-14",
     "start_price": 119117.55666327637,
     "todays_date": "2026-01-10",
-    "todays_price": 90502,
-    "percent_change": -24.02
+    "todays_price": 90409,
+    "percent_change": -24.1
   },
   "eth": {
     "symbol": "eth",
@@ -16,8 +16,8 @@
     "start_date": "2025-07-14",
     "start_price": 2974.2654952333387,
     "todays_date": "2026-01-10",
-    "todays_price": 3080.41,
-    "percent_change": 3.57
+    "todays_price": 3079.0,
+    "percent_change": 3.52
   },
   "xrp": {
     "symbol": "xrp",
@@ -26,8 +26,8 @@
     "start_date": "2025-07-14",
     "start_price": 2.836943449825265,
     "todays_date": "2026-01-10",
-    "todays_price": 2.09,
-    "percent_change": -26.33
+    "todays_price": 2.08,
+    "percent_change": -26.68
   },
   "usdt": {
     "symbol": "usdt",
@@ -36,7 +36,7 @@
     "start_date": "2025-07-14",
     "start_price": 1.0002981074921349,
     "todays_date": "2026-01-10",
-    "todays_price": 0.998733,
+    "todays_price": 0.998728,
     "percent_change": -0.16
   },
   "bnb": {
@@ -46,8 +46,8 @@
     "start_date": "2025-07-14",
     "start_price": 692.0429275667424,
     "todays_date": "2026-01-10",
-    "todays_price": 899.48,
-    "percent_change": 29.97
+    "todays_price": 903.05,
+    "percent_change": 30.49
   },
   "sol": {
     "symbol": "sol",
@@ -56,8 +56,8 @@
     "start_date": "2025-07-14",
     "start_price": 161.2426294578984,
     "todays_date": "2026-01-10",
-    "todays_price": 135.91,
-    "percent_change": -15.71
+    "todays_price": 135.68,
+    "percent_change": -15.85
   },
   "usdc": {
     "symbol": "usdc",
@@ -66,8 +66,8 @@
     "start_date": "2025-07-14",
     "start_price": 0.9998965750627202,
     "todays_date": "2026-01-10",
-    "todays_price": 0.999844,
-    "percent_change": -0.01
+    "todays_price": 0.999688,
+    "percent_change": -0.02
   },
   "doge": {
     "symbol": "doge",
@@ -76,8 +76,8 @@
     "start_date": "2025-07-14",
     "start_price": 0.1981830429850487,
     "todays_date": "2026-01-10",
-    "todays_price": 0.139844,
-    "percent_change": -29.44
+    "todays_price": 0.139676,
+    "percent_change": -29.52
   },
   "trx": {
     "symbol": "trx",
@@ -86,8 +86,8 @@
     "start_date": "2025-07-14",
     "start_price": 0.3030558478933525,
     "todays_date": "2026-01-10",
-    "todays_price": 0.297808,
-    "percent_change": -1.73
+    "todays_price": 0.296983,
+    "percent_change": -2.0
   },
   "ada": {
     "symbol": "ada",
@@ -96,8 +96,8 @@
     "start_date": "2025-07-14",
     "start_price": 0.7378983923650405,
     "todays_date": "2026-01-10",
-    "todays_price": 0.387043,
-    "percent_change": -47.55
+    "todays_price": 0.387279,
+    "percent_change": -47.52
   },
   "hype": {
     "symbol": "hype",
@@ -106,8 +106,8 @@
     "start_date": "2025-07-14",
     "start_price": 48.554395884899556,
     "todays_date": "2026-01-10",
-    "todays_price": 24.36,
-    "percent_change": -49.83
+    "todays_price": 24.33,
+    "percent_change": -49.89
   },
   "xlm": {
     "symbol": "xlm",
@@ -116,8 +116,8 @@
     "start_date": "2025-07-14",
     "start_price": 0.4721035854078526,
     "todays_date": "2026-01-10",
-    "todays_price": 0.226332,
-    "percent_change": -52.06
+    "todays_price": 0.225868,
+    "percent_change": -52.16
   },
   "sui": {
     "symbol": "sui",
@@ -136,8 +136,8 @@
     "start_date": "2025-07-14",
     "start_price": 15.647171782344852,
     "todays_date": "2026-01-10",
-    "todays_price": 13.08,
-    "percent_change": -16.41
+    "todays_price": 13.07,
+    "percent_change": -16.47
   },
   "hbar": {
     "symbol": "hbar",
@@ -146,8 +146,8 @@
     "start_date": "2025-07-14",
     "start_price": 0.2404678240544013,
     "todays_date": "2026-01-10",
-    "todays_price": 0.119067,
-    "percent_change": -50.49
+    "todays_price": 0.118603,
+    "percent_change": -50.68
   },
   "bch": {
     "symbol": "bch",
@@ -156,8 +156,8 @@
     "start_date": "2025-07-14",
     "start_price": 507.6173993721144,
     "todays_date": "2026-01-10",
-    "todays_price": 634.04,
-    "percent_change": 24.91
+    "todays_price": 631.79,
+    "percent_change": 24.46
   },
   "avax": {
     "symbol": "avax",
@@ -166,8 +166,8 @@
     "start_date": "2025-07-14",
     "start_price": 21.18558444040671,
     "todays_date": "2026-01-10",
-    "todays_price": 13.66,
-    "percent_change": -35.52
+    "todays_price": 13.64,
+    "percent_change": -35.62
   },
   "leo": {
     "symbol": "leo",
@@ -176,8 +176,8 @@
     "start_date": "2025-07-14",
     "start_price": 9.029655170852603,
     "todays_date": "2026-01-10",
-    "todays_price": 9.04,
-    "percent_change": 0.11
+    "todays_price": 9.05,
+    "percent_change": 0.23
   },
   "shib": {
     "symbol": "shib",
@@ -206,8 +206,8 @@
     "start_date": "2025-07-14",
     "start_price": 94.59945275727617,
     "todays_date": "2026-01-10",
-    "todays_price": 80.93,
-    "percent_change": -14.45
+    "todays_price": 80.78,
+    "percent_change": -14.61
   },
   "dot": {
     "symbol": "dot",
@@ -216,8 +216,8 @@
     "start_date": "2025-07-14",
     "start_price": 3.983930538545639,
     "todays_date": "2026-01-10",
-    "todays_price": 2.07,
-    "percent_change": -48.04
+    "todays_price": 2.08,
+    "percent_change": -47.79
   },
   "xmr": {
     "symbol": "xmr",
@@ -226,8 +226,8 @@
     "start_date": "2025-07-14",
     "start_price": 336.01582645671033,
     "todays_date": "2026-01-10",
-    "todays_price": 448.55,
-    "percent_change": 33.49
+    "todays_price": 447.62,
+    "percent_change": 33.21
   },
   "uni": {
     "symbol": "uni",
@@ -236,8 +236,8 @@
     "start_date": "2025-07-14",
     "start_price": 8.519797776359518,
     "todays_date": "2026-01-10",
-    "todays_price": 5.46,
-    "percent_change": -35.91
+    "todays_price": 5.44,
+    "percent_change": -36.15
   },
   "dai": {
     "symbol": "dai",
@@ -246,8 +246,8 @@
     "start_date": "2025-07-14",
     "start_price": 0.9999871296422147,
     "todays_date": "2026-01-10",
-    "todays_price": 0.999773,
-    "percent_change": -0.02
+    "todays_price": 0.999841,
+    "percent_change": -0.01
   },
   "usde": {
     "symbol": "usde",
@@ -256,7 +256,7 @@
     "start_date": "2025-07-14",
     "start_price": 1.001859360350995,
     "todays_date": "2026-01-10",
-    "todays_price": 0.999033,
+    "todays_price": 0.999021,
     "percent_change": -0.28
   },
   "bgb": {
@@ -276,8 +276,8 @@
     "start_date": "2025-07-14",
     "start_price": 1.2287639887351017e-05,
     "todays_date": "2026-01-10",
-    "todays_price": 6.01e-06,
-    "percent_change": -51.09
+    "todays_price": 5.98e-06,
+    "percent_change": -51.33
   },
   "aave": {
     "symbol": "aave",
@@ -286,8 +286,8 @@
     "start_date": "2025-07-14",
     "start_price": 306.2924037378168,
     "todays_date": "2026-01-10",
-    "todays_price": 163.99,
-    "percent_change": -46.46
+    "todays_price": 163.75,
+    "percent_change": -46.54
   },
   "tao": {
     "symbol": "tao",
@@ -296,8 +296,8 @@
     "start_date": "2025-07-14",
     "start_price": 391.73204202047924,
     "todays_date": "2026-01-10",
-    "todays_price": 277.03,
-    "percent_change": -29.28
+    "todays_price": 274.47,
+    "percent_change": -29.93
   },
   "pi": {
     "symbol": "pi",
@@ -306,8 +306,8 @@
     "start_date": "2025-07-14",
     "start_price": 0.46717259039654724,
     "todays_date": "2026-01-10",
-    "todays_price": 0.208358,
-    "percent_change": -55.4
+    "todays_price": 0.208701,
+    "percent_change": -55.33
   },
   "cro": {
     "symbol": "cro",
@@ -316,8 +316,8 @@
     "start_date": "2025-07-14",
     "start_price": 0.10671019686662708,
     "todays_date": "2026-01-10",
-    "todays_price": 0.099675,
-    "percent_change": -6.59
+    "todays_price": 0.099742,
+    "percent_change": -6.53
   },
   "apt": {
     "symbol": "apt",
@@ -326,8 +326,8 @@
     "start_date": "2025-07-14",
     "start_price": 4.9435420516895725,
     "todays_date": "2026-01-10",
-    "todays_price": 1.81,
-    "percent_change": -63.39
+    "todays_price": 1.8,
+    "percent_change": -63.59
   },
   "near": {
     "symbol": "near",
@@ -356,8 +356,8 @@
     "start_date": "2025-07-14",
     "start_price": 0.9037557745884002,
     "todays_date": "2026-01-10",
-    "todays_price": 0.399351,
-    "percent_change": -55.81
+    "todays_price": 0.399202,
+    "percent_change": -55.83
   },
   "etc": {
     "symbol": "etc",
@@ -366,8 +366,8 @@
     "start_date": "2025-07-14",
     "start_price": 18.42467150294581,
     "todays_date": "2026-01-10",
-    "todays_price": 12.51,
-    "percent_change": -32.1
+    "todays_price": 12.5,
+    "percent_change": -32.16
   },
   "okb": {
     "symbol": "okb",
@@ -376,8 +376,8 @@
     "start_date": "2025-07-14",
     "start_price": 48.67136093792301,
     "todays_date": "2026-01-10",
-    "todays_price": 110.13,
-    "percent_change": 126.27
+    "todays_price": 110.06,
+    "percent_change": 126.13
   },
   "pol": {
     "symbol": "pol",
@@ -386,8 +386,8 @@
     "start_date": "2025-07-14",
     "start_price": 0.23257869545451632,
     "todays_date": "2026-01-10",
-    "todays_price": 0.156973,
-    "percent_change": -32.51
+    "todays_price": 0.159898,
+    "percent_change": -31.25
   },
   "algo": {
     "symbol": "algo",
@@ -396,8 +396,8 @@
     "start_date": "2025-07-14",
     "start_price": 0.2643311552998526,
     "todays_date": "2026-01-10",
-    "todays_price": 0.132103,
-    "percent_change": -50.02
+    "todays_price": 0.131444,
+    "percent_change": -50.27
   },
   "mnt": {
     "symbol": "mnt",
@@ -406,8 +406,8 @@
     "start_date": "2025-07-14",
     "start_price": 0.7021761181414109,
     "todays_date": "2026-01-10",
-    "todays_price": 0.96746,
-    "percent_change": 37.78
+    "todays_price": 0.966982,
+    "percent_change": 37.71
   },
   "kas": {
     "symbol": "kas",
@@ -416,8 +416,8 @@
     "start_date": "2025-07-14",
     "start_price": 0.0859155438183351,
     "todays_date": "2026-01-10",
-    "todays_price": 0.0463281,
-    "percent_change": -46.08
+    "todays_price": 0.04633374,
+    "percent_change": -46.07
   },
   "wlfi": {
     "symbol": "wlfi",
@@ -426,7 +426,7 @@
     "start_date": "2025-07-14",
     "start_price": 0.0,
     "todays_date": "2026-01-10",
-    "todays_price": 0.167052,
+    "todays_price": 0.166825,
     "percent_change": 0.0
   },
   "ena": {
@@ -436,8 +436,8 @@
     "start_date": "2025-07-14",
     "start_price": 0.3428328499647323,
     "todays_date": "2026-01-10",
-    "todays_price": 0.22884,
-    "percent_change": -33.25
+    "todays_price": 0.227273,
+    "percent_change": -33.71
   },
   "bonk": {
     "symbol": "bonk",
@@ -446,8 +446,8 @@
     "start_date": "2025-07-14",
     "start_price": 2.6266911893718118e-05,
     "todays_date": "2026-01-10",
-    "todays_price": 1.065e-05,
-    "percent_change": -59.45
+    "todays_price": 1.055e-05,
+    "percent_change": -59.84
   },
   "vet": {
     "symbol": "vet",
@@ -456,8 +456,8 @@
     "start_date": "2025-07-14",
     "start_price": 0.024660524456808393,
     "todays_date": "2026-01-10",
-    "todays_price": 0.01167348,
-    "percent_change": -52.66
+    "todays_price": 0.01170624,
+    "percent_change": -52.53
   },
   "arb": {
     "symbol": "arb",
@@ -466,8 +466,8 @@
     "start_date": "2025-07-14",
     "start_price": 0.410285726621702,
     "todays_date": "2026-01-10",
-    "todays_price": 0.204992,
-    "percent_change": -50.04
+    "todays_price": 0.205045,
+    "percent_change": -50.02
   },
   "render": {
     "symbol": "render",
@@ -476,8 +476,8 @@
     "start_date": "2025-07-14",
     "start_price": 3.765182188860958,
     "todays_date": "2026-01-10",
-    "todays_price": 2.28,
-    "percent_change": -39.45
+    "todays_price": 2.24,
+    "percent_change": -40.51
   },
   "gt": {
     "symbol": "gt",
@@ -486,8 +486,8 @@
     "start_date": "2025-07-14",
     "start_price": 15.73791689484452,
     "todays_date": "2026-01-10",
-    "todays_price": 10.23,
-    "percent_change": -35.0
+    "todays_price": 10.2,
+    "percent_change": -35.19
   },
   "trump": {
     "symbol": "trump",
@@ -506,8 +506,8 @@
     "start_date": "2025-07-14",
     "start_price": 0.31687881528355294,
     "todays_date": "2026-01-10",
-    "todays_price": 0.120392,
-    "percent_change": -62.01
+    "todays_price": 0.120155,
+    "percent_change": -62.08
   },
   "wld": {
     "symbol": "wld",
@@ -516,8 +516,8 @@
     "start_date": "2025-07-14",
     "start_price": 1.0451349143619495,
     "todays_date": "2026-01-10",
-    "todays_price": 0.57241,
-    "percent_change": -45.23
+    "todays_price": 0.571474,
+    "percent_change": -45.32
   },
   "atom": {
     "symbol": "atom",
@@ -526,8 +526,8 @@
     "start_date": "2025-07-14",
     "start_price": 4.684208085757465,
     "todays_date": "2026-01-10",
-    "todays_price": 2.56,
-    "percent_change": -45.35
+    "todays_price": 2.57,
+    "percent_change": -45.13
   },
   "fil": {
     "symbol": "fil",
@@ -536,8 +536,8 @@
     "start_date": "2025-07-14",
     "start_price": 2.560739271164268,
     "todays_date": "2026-01-10",
-    "todays_price": 1.47,
-    "percent_change": -42.59
+    "todays_price": 1.46,
+    "percent_change": -42.99
   },
   "fet": {
     "symbol": "fet",
@@ -546,8 +546,8 @@
     "start_date": "2025-07-14",
     "start_price": 0.7334348364469456,
     "todays_date": "2026-01-10",
-    "todays_price": 0.280602,
-    "percent_change": -61.74
+    "todays_price": 0.278152,
+    "percent_change": -62.08
   },
   "pengu": {
     "symbol": "pengu",
@@ -556,8 +556,8 @@
     "start_date": "2025-07-14",
     "start_price": 0.029820320059756853,
     "todays_date": "2026-01-10",
-    "todays_price": 0.0119437,
-    "percent_change": -59.95
+    "todays_price": 0.01178568,
+    "percent_change": -60.48
   },
   "sky": {
     "symbol": "sky",
@@ -566,8 +566,8 @@
     "start_date": "2025-07-14",
     "start_price": 0.07845982342900468,
     "todays_date": "2026-01-10",
-    "todays_price": 0.055527,
-    "percent_change": -29.23
+    "todays_price": 0.055248,
+    "percent_change": -29.58
   },
   "jup": {
     "symbol": "jup",
@@ -576,8 +576,8 @@
     "start_date": "2025-07-14",
     "start_price": 0.5041093962228442,
     "todays_date": "2026-01-10",
-    "todays_price": 0.210963,
-    "percent_change": -58.15
+    "todays_price": 0.210226,
+    "percent_change": -58.3
   },
   "spx": {
     "symbol": "spx",
@@ -586,8 +586,8 @@
     "start_date": "2025-07-14",
     "start_price": 1.5575352333504249,
     "todays_date": "2026-01-10",
-    "todays_price": 0.575561,
-    "percent_change": -63.05
+    "todays_price": 0.572485,
+    "percent_change": -63.24
   },
   "kcs": {
     "symbol": "kcs",
@@ -596,8 +596,8 @@
     "start_date": "2025-07-14",
     "start_price": 11.449762359165703,
     "todays_date": "2026-01-10",
-    "todays_price": 11.51,
-    "percent_change": 0.53
+    "todays_price": 11.55,
+    "percent_change": 0.88
   },
   "fdusd": {
     "symbol": "fdusd",
@@ -606,7 +606,7 @@
     "start_date": "2025-07-14",
     "start_price": 1.0008909647311695,
     "todays_date": "2026-01-10",
-    "todays_price": 0.998575,
+    "todays_price": 0.99863,
     "percent_change": -0.23
   },
   "qnt": {
@@ -616,8 +616,8 @@
     "start_date": "2025-07-14",
     "start_price": 115.02048173046799,
     "todays_date": "2026-01-10",
-    "todays_price": 74.0,
-    "percent_change": -35.66
+    "todays_price": 74.03,
+    "percent_change": -35.64
   },
   "tia": {
     "symbol": "tia",
@@ -626,8 +626,8 @@
     "start_date": "2025-07-14",
     "start_price": 1.8840329499716857,
     "todays_date": "2026-01-10",
-    "todays_price": 0.542097,
-    "percent_change": -71.23
+    "todays_price": 0.540772,
+    "percent_change": -71.3
   },
   "fartcoin": {
     "symbol": "fartcoin",
@@ -636,8 +636,8 @@
     "start_date": "2025-07-14",
     "start_price": 1.2853010836550685,
     "todays_date": "2026-01-10",
-    "todays_price": 0.363,
-    "percent_change": -71.76
+    "todays_price": 0.363928,
+    "percent_change": -71.69
   },
   "xdc": {
     "symbol": "xdc",
@@ -646,7 +646,7 @@
     "start_date": "2025-07-14",
     "start_price": 0.0781891276265742,
     "todays_date": "2026-01-10",
-    "todays_price": 0.04830771,
+    "todays_price": 0.04830586,
     "percent_change": -38.22
   },
   "ip": {
@@ -656,8 +656,8 @@
     "start_date": "2025-07-14",
     "start_price": 4.193841465844055,
     "todays_date": "2026-01-10",
-    "todays_price": 2.0,
-    "percent_change": -52.31
+    "todays_price": 1.99,
+    "percent_change": -52.55
   },
   "form": {
     "symbol": "form",
@@ -666,8 +666,8 @@
     "start_date": "2025-07-14",
     "start_price": 3.33480602428078,
     "todays_date": "2026-01-10",
-    "todays_price": 0.385853,
-    "percent_change": -88.43
+    "todays_price": 0.385195,
+    "percent_change": -88.45
   },
   "inj": {
     "symbol": "inj",
@@ -686,8 +686,8 @@
     "start_date": "2025-07-14",
     "start_price": 0.7867337218275517,
     "todays_date": "2026-01-10",
-    "todays_price": 0.376637,
-    "percent_change": -52.13
+    "todays_price": 0.369201,
+    "percent_change": -53.07
   },
   "flr": {
     "symbol": "flr",
@@ -696,8 +696,8 @@
     "start_date": "2025-07-14",
     "start_price": 0.016936999606356785,
     "todays_date": "2026-01-10",
-    "todays_price": 0.01121541,
-    "percent_change": -33.78
+    "todays_price": 0.01119386,
+    "percent_change": -33.91
   },
   "op": {
     "symbol": "op",
@@ -706,8 +706,8 @@
     "start_date": "2025-07-14",
     "start_price": 0.6541329819725544,
     "todays_date": "2026-01-10",
-    "todays_price": 0.3122,
-    "percent_change": -52.27
+    "todays_price": 0.312034,
+    "percent_change": -52.3
   },
   "virtual": {
     "symbol": "virtual",
@@ -716,8 +716,8 @@
     "start_date": "2025-07-14",
     "start_price": 1.7087752785936523,
     "todays_date": "2026-01-10",
-    "todays_price": 1.046,
-    "percent_change": -38.79
+    "todays_price": 1.038,
+    "percent_change": -39.25
   },
   "wif": {
     "symbol": "wif",
@@ -726,8 +726,8 @@
     "start_date": "2025-07-14",
     "start_price": 0.9979544273048956,
     "todays_date": "2026-01-10",
-    "todays_price": 0.380915,
-    "percent_change": -61.83
+    "todays_price": 0.378845,
+    "percent_change": -62.04
   },
   "imx": {
     "symbol": "imx",
@@ -736,8 +736,8 @@
     "start_date": "2025-07-14",
     "start_price": 0.5321468230140168,
     "todays_date": "2026-01-10",
-    "todays_price": 0.266216,
-    "percent_change": -49.97
+    "todays_price": 0.266709,
+    "percent_change": -49.88
   },
   "s": {
     "symbol": "s",
@@ -746,8 +746,8 @@
     "start_date": "2025-07-14",
     "start_price": 0.3609676200171879,
     "todays_date": "2026-01-10",
-    "todays_price": 0.086853,
-    "percent_change": -75.94
+    "todays_price": 0.086796,
+    "percent_change": -75.95
   },
   "grt": {
     "symbol": "grt",
@@ -756,8 +756,8 @@
     "start_date": "2025-07-14",
     "start_price": 0.09937984689439912,
     "todays_date": "2026-01-10",
-    "todays_price": 0.04140748,
-    "percent_change": -58.33
+    "todays_price": 0.0413188,
+    "percent_change": -58.42
   },
   "kaia": {
     "symbol": "kaia",
@@ -766,8 +766,8 @@
     "start_date": "2025-07-14",
     "start_price": 0.15612497409051726,
     "todays_date": "2026-01-10",
-    "todays_price": 0.065334,
-    "percent_change": -58.15
+    "todays_price": 0.06523,
+    "percent_change": -58.22
   },
   "paxg": {
     "symbol": "paxg",
@@ -776,8 +776,8 @@
     "start_date": "2025-07-14",
     "start_price": 3355.9890427271716,
     "todays_date": "2026-01-10",
-    "todays_price": 4503.07,
-    "percent_change": 34.18
+    "todays_price": 4504.71,
+    "percent_change": 34.23
   },
   "floki": {
     "symbol": "floki",
@@ -786,8 +786,8 @@
     "start_date": "2025-07-14",
     "start_price": 9.666675301364319e-05,
     "todays_date": "2026-01-10",
-    "todays_price": 5.186e-05,
-    "percent_change": -46.35
+    "todays_price": 5.168e-05,
+    "percent_change": -46.54
   },
   "crv": {
     "symbol": "crv",
@@ -796,8 +796,8 @@
     "start_date": "2025-07-14",
     "start_price": 0.653741879647873,
     "todays_date": "2026-01-10",
-    "todays_price": 0.40584,
-    "percent_change": -37.92
+    "todays_price": 0.405041,
+    "percent_change": -38.04
   },
   "pyusd": {
     "symbol": "pyusd",
@@ -806,8 +806,8 @@
     "start_date": "2025-07-14",
     "start_price": 0.9996506281914964,
     "todays_date": "2026-01-10",
-    "todays_price": 1.0,
-    "percent_change": 0.03
+    "todays_price": 0.999887,
+    "percent_change": 0.02
   },
   "iota": {
     "symbol": "iota",
@@ -816,8 +816,8 @@
     "start_date": "2025-07-14",
     "start_price": 0.21845492167015637,
     "todays_date": "2026-01-10",
-    "todays_price": 0.102769,
-    "percent_change": -52.96
+    "todays_price": 0.10254,
+    "percent_change": -53.06
   },
   "a": {
     "symbol": "a",
@@ -826,8 +826,8 @@
     "start_date": "2025-07-14",
     "start_price": 0.5460130863092671,
     "todays_date": "2026-01-10",
-    "todays_price": 0.172941,
-    "percent_change": -68.33
+    "todays_price": 0.173217,
+    "percent_change": -68.28
   },
   "nexo": {
     "symbol": "nexo",
@@ -836,8 +836,8 @@
     "start_date": "2025-07-14",
     "start_price": 1.2836636749218184,
     "todays_date": "2026-01-10",
-    "todays_price": 0.956542,
-    "percent_change": -25.48
+    "todays_price": 0.95739,
+    "percent_change": -25.42
   },
   "cake": {
     "symbol": "cake",
@@ -846,8 +846,8 @@
     "start_date": "2025-07-14",
     "start_price": 2.4005351822393233,
     "todays_date": "2026-01-10",
-    "todays_price": 1.98,
-    "percent_change": -17.52
+    "todays_price": 2.0,
+    "percent_change": -16.69
   },
   "ens": {
     "symbol": "ens",
@@ -856,8 +856,8 @@
     "start_date": "2025-07-14",
     "start_price": 22.03938152557628,
     "todays_date": "2026-01-10",
-    "todays_price": 10.3,
-    "percent_change": -53.27
+    "todays_price": 10.32,
+    "percent_change": -53.17
   },
   "xaut": {
     "symbol": "xaut",
@@ -866,8 +866,8 @@
     "start_date": "2025-07-14",
     "start_price": 3360.8414731769135,
     "todays_date": "2026-01-10",
-    "todays_price": 4494.57,
-    "percent_change": 33.73
+    "todays_price": 4493.42,
+    "percent_change": 33.7
   },
   "jasmy": {
     "symbol": "jasmy",
@@ -876,8 +876,8 @@
     "start_date": "2025-07-14",
     "start_price": 0.0161431494285736,
     "todays_date": "2026-01-10",
-    "todays_price": 0.00884587,
-    "percent_change": -45.2
+    "todays_price": 0.00869296,
+    "percent_change": -46.15
   },
   "sand": {
     "symbol": "sand",
@@ -886,8 +886,8 @@
     "start_date": "2025-07-14",
     "start_price": 0.3116925590579077,
     "todays_date": "2026-01-10",
-    "todays_price": 0.117929,
-    "percent_change": -62.16
+    "todays_price": 0.118418,
+    "percent_change": -62.01
   },
   "theta": {
     "symbol": "theta",
@@ -896,8 +896,8 @@
     "start_date": "2025-07-14",
     "start_price": 0.8107907051430727,
     "todays_date": "2026-01-10",
-    "todays_price": 0.299064,
-    "percent_change": -63.11
+    "todays_price": 0.299402,
+    "percent_change": -63.07
   },
   "gala": {
     "symbol": "gala",
@@ -906,8 +906,8 @@
     "start_date": "2025-07-14",
     "start_price": 0.017221352980319623,
     "todays_date": "2026-01-10",
-    "todays_price": 0.00706994,
-    "percent_change": -58.95
+    "todays_price": 0.0070848,
+    "percent_change": -58.86
   },
   "ldo": {
     "symbol": "ldo",
@@ -916,8 +916,8 @@
     "start_date": "2025-07-14",
     "start_price": 0.8381517176207299,
     "todays_date": "2026-01-10",
-    "todays_price": 0.632609,
-    "percent_change": -24.52
+    "todays_price": 0.632226,
+    "percent_change": -24.57
   },
   "ray": {
     "symbol": "ray",
@@ -936,8 +936,8 @@
     "start_date": "2025-07-14",
     "start_price": 42.39988260684145,
     "todays_date": "2026-01-10",
-    "todays_price": 398.01,
-    "percent_change": 838.71
+    "todays_price": 374.63,
+    "percent_change": 783.56
   },
   "m": {
     "symbol": "m",
@@ -956,8 +956,8 @@
     "start_date": "2025-07-14",
     "start_price": 0.8203205741936829,
     "todays_date": "2026-01-10",
-    "todays_price": 0.540246,
-    "percent_change": -34.14
+    "todays_price": 0.538455,
+    "percent_change": -34.36
   },
   "btt": {
     "symbol": "btt",
@@ -966,8 +966,8 @@
     "start_date": "2025-07-14",
     "start_price": 6.855540039122296e-07,
     "todays_date": "2026-01-10",
-    "todays_price": 4.2473e-07,
-    "percent_change": -38.05
+    "todays_price": 4.23888e-07,
+    "percent_change": -38.17
   },
   "mog": {
     "symbol": "mog",
@@ -976,8 +976,8 @@
     "start_date": "2025-07-14",
     "start_price": 1.897064277649104e-06,
     "todays_date": "2026-01-10",
-    "todays_price": 3.10781e-07,
-    "percent_change": -83.62
+    "todays_price": 3.09359e-07,
+    "percent_change": -83.69
   },
   "pyth": {
     "symbol": "pyth",
@@ -986,8 +986,8 @@
     "start_date": "2025-07-14",
     "start_price": 0.11937220658007103,
     "todays_date": "2026-01-10",
-    "todays_price": 0.066457,
-    "percent_change": -44.33
+    "todays_price": 0.066375,
+    "percent_change": -44.4
   },
   "xtz": {
     "symbol": "xtz",
@@ -996,7 +996,7 @@
     "start_date": "2025-07-14",
     "start_price": 0.6428804171566647,
     "todays_date": "2026-01-10",
-    "todays_price": 0.579586,
-    "percent_change": -9.85
+    "todays_price": 0.582059,
+    "percent_change": -9.46
   }
 }
