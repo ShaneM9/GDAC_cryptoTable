@@ -1,4 +1,4 @@
-# 🪙 GDAC Crypto Table 
+# 🪙 GDAC Crypto Table
 
 ![Last Commit](https://img.shields.io/github/last-commit/ShaneM9/GDAC_cryptoTable)
 [![GDAC Website](https://img.shields.io/badge/Visit%20GDAC%20Site-Click%20Here-blue)](https://digitalconferenceguernsey.gg/crypto-game)
